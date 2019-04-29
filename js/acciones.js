@@ -8,7 +8,7 @@ $(document).ready(function(e){
 		});//tap beep
 		
 		$('#vibrar').tap(function(){
-			navigator.notification.vribate(1000);
+			navigator.notification.vibrate(2000);
 		});//tap vibrar 
 		
 	},false); //deviceready
